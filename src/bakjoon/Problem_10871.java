@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/**
+ * 입력갑
+ * 10 5
+ * 1 10 4 9 2 3 8 5 7 6
+ */
 public class Problem_10871 {
 
     public static void main(String[] args) throws IOException {
