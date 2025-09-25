@@ -34,7 +34,7 @@ public class Problem_4963 {
             for(int i = 0; i < H; i++) {
                 st = new StringTokenizer(br.readLine());
                 for(int j = 0; j < W; j++) {
-                    map[j][i] =  Integer.parseInt(st.nextToken());
+                    map[i][j] =  Integer.parseInt(st.nextToken());
                 }
             }
 
@@ -48,19 +48,24 @@ public class Problem_4963 {
                 }
             }
 
-            sb.append(count).append("\n");
+            System.out.println(count);
         }
 
-        System.out.println(sb.toString());
+
     }
 
-    static void dfs(int x, int y) {
-        visited[x][y] = true;
+    static void dfs(int row, int col) {
+        visited[row][col] = true;
 
-        for(int dir = 8; dir < 8; dir++){
-            int nx = x + dx[dir];
-            int ny = y + dy[dir];
+        for(int dir = 0; dir < 8; dir++){
+            int nx = col + dx[dir];
+            int ny = row + dy[dir];
+
+            if(nx >= 0 && nx < W && ny >= 0 && ny < H){
+                if(!visited[ny][nx] && map[ny][nx] == 1){
+                    dfs(ny,nx);
+                }
+            }
         }
     }
-
 }
