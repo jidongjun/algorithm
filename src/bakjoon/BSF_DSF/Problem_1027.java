@@ -22,8 +22,8 @@ public class Problem_1027 {
             N = Integer.parseInt(st.nextToken());
             K = Integer.parseInt(st.nextToken());
 
-            graph = new int[N][N];
-            visited = new boolean[N][N];
+            graph = new int[N][M];
+            visited = new boolean[N][M];
 
             for(int i = 0; i < K; i++) {
                 st = new StringTokenizer(br.readLine());
