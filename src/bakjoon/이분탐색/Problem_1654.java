@@ -1,4 +1,4 @@
-package bakjoon;
+package bakjoon.이분탐색;
 
 import java.util.*;
 import java.io.*;
