@@ -25,7 +25,7 @@ public class Problem_10828 {
                 else sb.append(stack[top--]).append("\n");
             } else if(command.startsWith("size")){
                 sb.append(top + 1).append("\n");
-            } else if (command.startsWith("empth")) {
+            } else if (command.startsWith("empty")) {
                 sb.append(top == -1 ? 1 : 0).append("\n");
             } else if(command.startsWith("top")){
                 if(top == -1) sb.append("-1\n");
