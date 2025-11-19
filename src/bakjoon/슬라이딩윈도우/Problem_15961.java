@@ -1,4 +1,4 @@
-package bakjoon;
+package bakjoon.슬라이딩윈도우;
 
 import java.util.*;
 import java.io.*;
@@ -50,7 +50,6 @@ public class Problem_15961 {
             if(freq[c] == 0) current++;
 
             max = Math.max(max, current);
-
         }
 
         System.out.println(max);
