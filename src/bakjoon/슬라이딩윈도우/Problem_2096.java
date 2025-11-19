@@ -12,7 +12,7 @@ public class Problem_2096 {
         int[] minDp = new int[3];
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < N; i++){
+        for(int i = 0; i < 3; i++){
             int num = Integer.parseInt(st.nextToken());
             maxDp[i] = num;
             minDp[i] = num;
