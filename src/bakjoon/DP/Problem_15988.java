@@ -21,13 +21,13 @@ public class Problem_15988 {
 
             dp[1] = 1;
             dp[2] = 2;
-            dp[3] = 3;
+            dp[3] = 4;
 
             for(int i = 4; i<= t; i++){
-                dp[n] = dp[n-1] + dp[n-2] + dp[n-3];
+                dp[i] = dp[i-1] + dp[i-2] + dp[i-3] % 1_000_000_009;
             }
 
-            sb.append(dp[n]).append("\n");
+            sb.append(dp[t]).append("\n");
         }
 
         System.out.println(sb);
