@@ -31,5 +31,7 @@ public class Problem_13305 {
 
             totalCost += minPrice * dist[i];
         }
+
+        System.out.println(totalCost);
     }
 }
