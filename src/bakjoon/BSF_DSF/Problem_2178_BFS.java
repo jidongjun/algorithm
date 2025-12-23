@@ -6,7 +6,7 @@ import java.io.*;
 // DFS로 구현하면 최단경로를 보장하지 못함
 // 재귀 깊이 제한으로 실패할 수 있음
 // BFS(우선 너비 탐색) 출발점으로 부터 거리가 커지는 순서대로 노드를 방문
-public class Problem_2178 {
+public class Problem_2178_BFS {
     static int N, M;   // 행, 열
     static int[][] map;
     static int[][] dist; // 시작에서 해당 칸 까지의 거리

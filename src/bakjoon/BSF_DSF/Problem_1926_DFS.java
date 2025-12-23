@@ -6,7 +6,7 @@ import java.io.*;
 /**
  * 좌표문제는 기존수학과 다르게 (Y,X)로 풀것을 기억하자.
  */
-public class Problem_1926 {
+public class Problem_1926_DFS {
     static int H;   // 세로 (행, row)
     static int W;   // 가로 (열, col)
     static int[][] map;

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Problem_4963 {
+public class Problem_4963_DFS {
     static int W, H;
     static int[][] map;
     static boolean[][] visited;

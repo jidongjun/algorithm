@@ -3,7 +3,7 @@ package bakjoon.BSF_DSF;
 import java.util.*;
 import java.io.*;
 
-public class Problem_11724 {
+public class Problem_11724_DFS {
     static ArrayList<Integer>[] graph;
     static boolean[] visited;
     static int N;   // 정점의 개수

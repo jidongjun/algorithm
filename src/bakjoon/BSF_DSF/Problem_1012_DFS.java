@@ -6,7 +6,7 @@ import java.io.*;
 /**
  * DFS
  */
-public class Problem_1012 {
+public class Problem_1012_DFS {
     static int W;   // 가로
     static int H;   // 세로
     static int C;   // 배추의 갯수

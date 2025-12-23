@@ -3,7 +3,7 @@ package bakjoon.BSF_DSF;
 import java.util.*;
 import java.io.*;
 
-public class Problem_15650 {
+public class Problem_15650_DFS {
     static int N, M;
     static boolean[] visited;
     static int[] arr;

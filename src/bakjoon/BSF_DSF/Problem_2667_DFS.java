@@ -3,7 +3,7 @@ package bakjoon.BSF_DSF;
 import java.util.*;
 import java.io.*;
 
-public class Problem_2667 {
+public class Problem_2667_DFS {
     static int N;           // 지도의 크기
     static int[][] map;       // 정사각형을 담을 Map
     static boolean[][] visited;   // 방문여부

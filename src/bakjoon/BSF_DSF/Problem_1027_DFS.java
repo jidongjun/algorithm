@@ -3,7 +3,8 @@ package bakjoon.BSF_DSF;
 import java.util.*;
 import java.io.*;
 
-public class Problem_1027 {
+
+public class Problem_1027_DFS {
     static int T, M, N, K;          // 테스트케이스 수, 가로, 세로 ,배추의 수
     static int[][] graph;
     static boolean[][] visited;

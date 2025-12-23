@@ -3,7 +3,7 @@ package bakjoon.BSF_DSF;
 import java.util.*;
 import java.io.*;
 
-public class Problem_1260 {
+public class Problem_1260_BFS_DFS {
     static int N;   // 정점의 개수
     static int M;   // 간선의 개수
     static int V;   // 탐색을 시작할 정점의 번호

@@ -3,7 +3,7 @@ package bakjoon.BSF_DSF;
 import java.io.*;
 import java.util.*;
 
-public class Problem_2606 {
+public class Problem_2606_DFS {
     static int computerCnt;     // 컴퓨터의 수
     static int connectedLine;   // 연결되어있는 컴퓨터 쌍의 수
 
