@@ -3,7 +3,7 @@ package bakjoon.BSF_DSF;
 import java.util.*;
 import java.io.*;
 
-public class Problem_3184 {
+public class Problem_3184_BFS {
     static int r;
     static int c;
 
@@ -30,6 +30,7 @@ public class Problem_3184 {
         map = new char[r][c];
         visited = new boolean[r][c];
 
+        // 입력값 설정
         for (int i = 0; i < r; i++) {
             String line = br.readLine();
             for (int j = 0; j < c; j++) {
@@ -37,6 +38,7 @@ public class Problem_3184 {
             }
         }
 
+        // 탐색 및 결론 도출
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 if(!visited[i][j] && map[i][j] != '#'){
@@ -68,7 +70,7 @@ public class Problem_3184 {
         // 4방향 탐색
         for(int d = 0; d < 4; d++){
             int nx = r + dx[d];
-            int ny = c + dx[d];
+            int ny = c + dy[d];
 
             if (nx >= 0 && nx < r && ny >=0 && ny < c){
                 if(!visited[nx][ny] && map[nx][ny] != '#'){
