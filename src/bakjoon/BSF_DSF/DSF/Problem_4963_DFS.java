@@ -1,4 +1,4 @@
-package bakjoon.BSF_DSF;
+package bakjoon.BSF_DSF.DSF;
 
 import java.io.BufferedReader;
 import java.io.IOException;

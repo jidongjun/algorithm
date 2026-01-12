@@ -1,11 +1,11 @@
-package bakjoon.BSF_DSF;
+package bakjoon.BSF_DSF.DSF;
 
 import java.util.*;
 import java.io.*;
 
-public class Problem_3184_BFS {
-    static int r;
-    static int c;
+public class Problem_3184_DFS {
+    static int R;
+    static int C;
 
     static int sheep;
     static int wolf;
@@ -24,23 +24,23 @@ public class Problem_3184_BFS {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        r = Integer.parseInt(st.nextToken());
-        c = Integer.parseInt(st.nextToken());
+        R = Integer.parseInt(st.nextToken());
+        C = Integer.parseInt(st.nextToken());
 
-        map = new char[r][c];
-        visited = new boolean[r][c];
+        map = new char[R][C];
+        visited = new boolean[R][C];
 
         // 입력값 설정
-        for (int i = 0; i < r; i++) {
+        for (int i = 0; i < R; i++) {
             String line = br.readLine();
-            for (int j = 0; j < c; j++) {
+            for (int j = 0; j < C; j++) {
                 map[i][j] = line.charAt(j);
             }
         }
 
         // 탐색 및 결론 도출
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
+        for (int i = 0; i < R; i++) {
+            for (int j = 0; j < C; j++) {
                 if(!visited[i][j] && map[i][j] != '#'){
                     sheep = 0;
                     wolf = 0;
@@ -72,7 +72,7 @@ public class Problem_3184_BFS {
             int nx = r + dx[d];
             int ny = c + dy[d];
 
-            if (nx >= 0 && nx < r && ny >=0 && ny < c){
+            if (nx >= 0 && nx < R && ny >=0 && ny < C){
                 if(!visited[nx][ny] && map[nx][ny] != '#'){
                     dfs(nx, ny);
                 }

@@ -1,4 +1,4 @@
-package bakjoon.BSF_DSF;
+package bakjoon.BSF_DSF.BFS;
 
 import java.util.*;
 import java.io.*;
