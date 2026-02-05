@@ -1,4 +1,4 @@
-package bakjoon;
+package bakjoon.백트레킹;
 
 import java.util.*;
 import java.io.*;
@@ -39,7 +39,7 @@ public class Problem_15649 {
                 if (!visited[i]) {              // 아직 사용하지 않은 숫자라면
                     visited[i] = true;          // 사용 체크
                     arr[depth] = i;             // 현재 위치에 숫자 넣기
-                    dfs(depth + 1);       // 다음 깊이 탐색
+                    dfs(depth + 1);     // 다음 깊이 탐색
                     visited[i] = false;         // 원상복구 (백트래킹)
             }
         }
