@@ -13,7 +13,7 @@ public class 데이터분석 {
      * @param data  : 정렬한 데이터들이 담긴 이차원 정수 리스트
      * @param ext   : 어떤정보를 기준으로 데이터를 뽑아낼지를 의미하는 문자열
      * @param val_ext   : 뽑아낼 정보의 기준값을 나타내는 정수
-     * @param sory_by   : 정보를 정렬할 기준이 되는 문자열
+     * @param sort_by   : 정보를 정렬할 기준이 되는 문자열
      * @return
      */
     public int[][] solution(int[][] data, String ext, int val_ext, String sort_by){
