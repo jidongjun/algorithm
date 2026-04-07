@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 유연근무제 {
+public class Day2_유연근무제 {
 
     public int solution(int[] schedules, int[][] timelogs, int startDay) {
         int n = schedules.length;

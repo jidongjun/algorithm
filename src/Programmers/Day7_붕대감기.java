@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 붕대감기 {
+public class Day7_붕대감기 {
     public int solution(int[] bandage, int health, int[][] attacks){
         int t = bandage[0]; // 연속 성공 시간
         int x = bandage[1];

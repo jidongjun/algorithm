@@ -13,7 +13,7 @@ import java.util.Map;
  *  선물기록 -> 2차원배열
  *  사람 비교 -> 이중 for문
  */
-public class 가장많이받은선물 {
+public class Day6_가장많이받은선물 {
     public int solution(String[] friends, String[] gifts){
         int n = friends.length;
         Map<String, Integer> map = new HashMap<>();

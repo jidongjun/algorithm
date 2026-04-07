@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 동영상재생기 {
+public class Day3_동영상재생기 {
 
     /**
      *

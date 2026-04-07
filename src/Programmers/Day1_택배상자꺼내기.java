@@ -3,7 +3,7 @@ package Programmers;
 /**
  * row = (num - 1) / w pos = (num - 1) % w 홀수줄이면 뒤집기
  */
-public class 택배상자꺼내기 {
+public class Day1_택배상자꺼내기 {
 
     public int solution(int n, int w, int num) {
         int answer = 0;

@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 이웃한_칸 {
+public class Day8_이웃한_칸 {
     public int solution(String[][] board, int h, int w){
         int answer = 0;
 

@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.Arrays;
 
-public class 공원 {
+public class Day5_공원 {
 
     public int solution(int[] mats, int[][] park) {
         int answer = 0;

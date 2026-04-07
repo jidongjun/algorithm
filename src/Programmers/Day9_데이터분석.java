@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class 데이터분석 {
+public class Day9_데이터분석 {
 
     /**
      *

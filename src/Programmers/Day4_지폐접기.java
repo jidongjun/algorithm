@@ -11,7 +11,7 @@ package Programmers;
  * 3. answer을 return합니다.
  */
 
-public class 지폐접기 {
+public class Day4_지폐접기 {
     public static int solution(int[] wallet, int[] bill){
         int answer = 0;
 

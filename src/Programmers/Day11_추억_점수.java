@@ -3,7 +3,7 @@ package Programmers;
 import java.util.HashMap;
 import java.util.Map;
 
-public class 추억_점수 {
+public class Day11_추억_점수 {
 
     /**
      *
