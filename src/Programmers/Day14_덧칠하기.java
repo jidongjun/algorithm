@@ -9,11 +9,9 @@ public class Day14_덧칠하기 {
         for (int i = 0; i < selection.length; i++) {
             if (selection[i] > painted) {
                 count++;
-
                 painted = selection[i] + m - 1;
             }
         }
-
         return count;
     }
 
